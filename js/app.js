@@ -162,6 +162,7 @@ function Popup() {
     let div = document.createElement("div");
     div.innerHTML = '<span class="fa fa-star checked">';
     div.style.textAlign = "center";
+    div.style.fontSize = "33px";
     document.querySelector('.content').appendChild(div);
   }
   // here will add the timer and new game button
