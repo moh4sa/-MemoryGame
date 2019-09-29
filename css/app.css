@@ -160,7 +160,6 @@ button{
     margin-left: 27%;
     margin-right: 30%
     background: #02ccba;
-    color: white;
 }
 .button:hover {
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
