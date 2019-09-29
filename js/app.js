@@ -166,7 +166,7 @@ function Popup() {
   }
   // here will add the timer and new game button
   let p = document.createElement("p");
-  p.textContent = 'The game took you ' + timer + ' seconds to win.';
+  p.textContent = 'The game took you ' + (timer-1) + ' seconds to win.';
   document.querySelector('.content').appendChild(p);
   let btn = document.createElement("span");
   btn.innerHTML = "<button value='Refresh Page' onClick='window.location.href=window.location.href'>New Game</button>";
