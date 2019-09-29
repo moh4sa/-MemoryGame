@@ -127,8 +127,9 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+    text-align: center;
     padding: 1rem 1rem;
-    width: 27rem;
+    width: 30rem;
     border-radius: 0.5rem;
 }
 .modal {
@@ -154,11 +155,13 @@ p{
 button{
     border-radius: 4px;
     font-size: 28px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Courier New", Courier, monospace;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 27%;
     margin-right: 30%
+    background: #02ccba;
+    color: white;
 }
 .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
   }
