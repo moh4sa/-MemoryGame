@@ -24,16 +24,18 @@ function start() {
 }
 // add click listener to cards and allow them to open
 card.addEventListener('click', function listener(ev) {
-  oneMove();
+  
   if (ev.target.nodeName == "UL") return;
 
   if (displayCounter == 0) {
     card1 = ev.target;
+    oneMove();
     card1.classList.add('open');
     displayCounter++;
   }
   else if (displayCounter == 1 && card1!=ev.target) {
     card2 = ev.target;
+    oneMove();
     card2.classList.add('open');
     displayCounter++;
   }
@@ -77,6 +79,8 @@ function compareCards() {
     card2.classList.add('match');
     displayCounter = 0;
     matchedCard++;
+    card1 = null;
+    card2= null;
     if (matchedCard == 8) {
       clearTimer();
       Popup();
@@ -89,6 +93,8 @@ function compareCards() {
     card1.classList.toggle('open'); 
     card2.classList.toggle('open');
     displayCounter = 0;
+    card1 = null;
+    card2= null;
   }
 
 }
