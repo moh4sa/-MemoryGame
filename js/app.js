@@ -32,7 +32,7 @@ card.addEventListener('click', function listener(ev) {
     card1.classList.add('open');
     displayCounter++;
   }
-  else if (displayCounter == 1) {
+  else if (displayCounter == 1 && card1!=ev.target) {
     card2 = ev.target;
     card2.classList.add('open');
     displayCounter++;
