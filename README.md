@@ -2,7 +2,7 @@
 
 This is project is part of Udacity Front end developer nano degree program. 
 It's a momery card game test the player memory ability. 
-The game has 16 cards (8 pairs of 2) and the player has to match tow cards at a time.
+The game has 16 cards (8 pairs of 2) and the player has to match two cards at a time.
 
 ## Instructions
   The player should select two cards .
