@@ -35,6 +35,7 @@ card.addEventListener('click', function listener(ev) {
   }
   else if (displayCounter == 1 && card1!=ev.target) {
     card2 = ev.target;
+    if (card2.classList.contains("fa")) return;
     oneMove();
     card2.classList.add('open');
     displayCounter++;
